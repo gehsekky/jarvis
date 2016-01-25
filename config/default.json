@@ -4,6 +4,9 @@
   "auto-mark": true,
   "command-prefix": ".",
   "modules": {
-
+    "dongs": {},
+    "giphy": {
+      "api-key": "your-api-key-goes-here"
+    }
   }
 }
