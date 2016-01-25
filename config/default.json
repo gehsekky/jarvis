@@ -6,6 +6,10 @@
   "modules": {
     "dongs": {},
     "giphy": {
+      "api-key": "your-api-key-goes-here",
+      "rating": "pg-13"
+    },
+    "wunderground": {
       "api-key": "your-api-key-goes-here"
     }
   }
