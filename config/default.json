@@ -7,13 +7,14 @@
     "dongs": {},
     "giphy": {
       "api-key": "your-api-key-goes-here",
-      "rating": "pg-13"
+      "rating": "pg-13",
+      "attachment-color": "#439FE0"
     },
     "wunderground": {
       "api-key": "your-api-key-goes-here"
     },
     "amazon": {
-      "aws-account-id": "your-account-key-id-goes-here",
+      "aws-access-key-id": "your-access-key-id-goes-here",
       "aws-secret-key": "your-secret-key-goes-here",
       "aws-tag": "your-amazon-associate-tag-goes-here",
       "attachment-color": "#764FA5"
