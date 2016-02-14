@@ -57,6 +57,7 @@ module.exports = function (grunt) {
         asi: true,
         devel: true,
         node: true,
+        esnext: true,
         mocha: true,
         loopfunc: true,
         globals: {

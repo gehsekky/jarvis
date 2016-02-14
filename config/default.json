@@ -7,7 +7,6 @@
     "dongs": {},
     "giphy": {
       "api-key": "your-api-key-goes-here",
-      "rating": "pg-13",
       "attachment-color": "#439FE0"
     },
     "wunderground": {
@@ -18,6 +17,20 @@
       "aws-secret-key": "your-secret-key-goes-here",
       "aws-tag": "your-amazon-associate-tag-goes-here",
       "attachment-color": "#764FA5"
-    }
+    },
+    "uptime": {}
+  },
+  "log4js": {
+    "appenders": [
+      {
+        "type": "console"
+      }, {
+        "type": "dateFile",
+        "filename": "logs/jarvis",
+        "pattern": "-yyyyMMdd.log",
+        "alwaysIncludePattern": true
+      }
+    ],
+    "replaceConsole": true
   }
 }

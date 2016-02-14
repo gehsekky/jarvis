@@ -1,34 +1,25 @@
 'use strict'
 
-var chai = require('chai')
-var assert = chai.assert
-var expect = chai.expect
+let chai = require('chai')
+let assert = chai.assert
+let expect = chai.expect
+let JarvisModule = require('jarvis-module')
 
 describe('JarvisModule test suite', function () {
-  var JarvisModule
-  describe('startup tests', function () {
-    it('should not fail to be required', function () {
-      JarvisModule = require('jarvis-module')
+  describe('constructor tests', function () {
+    it('should instantiate virtual module without errors', function () {
+      assert.doesNotThrow(function () {
+        let mod = new JarvisModule()
+      })
     })
   })
 
-  describe('load tests', function () {
-    it('should throw an error with no moduleName passed in', function () {
-      assert.throws(function () {
-        JarvisModule.load()
-      }, 'moduleName missing')
-    })
-
-    it('should throw an error with empty string passed in', function () {
-      assert.throws(function () {
-        JarvisModule.load('')
-      }, 'moduleName missing')
-    })
-
-    it('should load the wunderground module with no exception', function () {
-      var testThis = { Commands: {}}
-      JarvisModule.load.call(testThis, 'wunderground')
-      expect(testThis.Commands).to.have.property('wunderground')
+  describe('init tests', function () {
+    it('should init fine', function () {
+      let mod = new JarvisModule()
+      assert.doesNotThrow(function () {
+        mod.init()
+      })
     })
   })
 })
