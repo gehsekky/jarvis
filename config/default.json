@@ -18,7 +18,7 @@
       "aws-tag": "your-amazon-associate-tag-goes-here",
       "attachment-color": "#764FA5"
     },
-    "uptime": {}
+    "jarvis": {}
   },
   "log4js": {
     "appenders": [
