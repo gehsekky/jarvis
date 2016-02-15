@@ -48,7 +48,7 @@ search for a relevant gif
 
     .giphy haduken
 
-### uptime
+### jarvis
 
 tell how long the bot has been up
 
