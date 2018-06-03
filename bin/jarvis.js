@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 'use strict'
 
-let config    = require('config')
-let JarvisBot = require('jarvis-bot')
-let log4js    = require('log4js')
+const config    = require('config')
+const JarvisBot = require('jarvis-bot')
+const log4js    = require('log4js')
 
 // initialize log4js
 log4js.configure(config.get('log4js'))
