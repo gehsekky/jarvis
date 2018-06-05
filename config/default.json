@@ -9,6 +9,10 @@
       "api-key": "your-api-key-goes-here",
       "attachment-color": "#439FE0"
     },
+    "imgur": {
+      "clientId": "your-client-id-goes-here",
+      "attachment-color": "#439FE0"
+    },
     "wunderground": {
       "api-key": "your-api-key-goes-here"
     },
