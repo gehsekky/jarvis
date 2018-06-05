@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "node bin/jarvis.js",
-    "test": "./node_modules/.bin/jest"
+    "lint": "node_modules/.bin/eslint bin/ lib/",
+    "test": "node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
@@ -27,12 +28,9 @@
     "rest": "^2.0.0"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-env": "^0.4.4",
-    "grunt-jsdoc": "^2.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
     "jest": "^23.1.0"
   }
 }
